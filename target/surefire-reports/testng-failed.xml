@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.rave.qa.testCases.LoginPageTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.rave.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="crmLogoImageTest"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.rave.qa.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.rave.qa.testCases.LoginPageTest] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM PRO Test Automation Suite">
+  <listeners>
+  	<listener class-name="com.rave.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="CRM PRO App Test Cases">
+    <classes>
+      <class name="com.rave.qa.testCases.LoginPageTest"></class> 
+      <class name="com.rave.qa.testCases.HomePageTest"></class>
+    </classes>
+  </test>
+</suite>

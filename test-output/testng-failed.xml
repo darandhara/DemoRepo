@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [CRM PRO Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.rave.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.rave.qa.analyzer.RetryTransformer"/>
+  </listeners>
+  <test name="CRM PRO App Test Cases(failed)">
+    <classes>
+      <class name="com.rave.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.rave.qa.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- CRM PRO App Test Cases(failed) -->
+</suite> <!-- Failed suite [CRM PRO Test Automation Suite] -->
