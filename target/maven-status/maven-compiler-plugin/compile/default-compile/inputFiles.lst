@@ -1,4 +1,12 @@
-C:\Users\Aditee\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\base\TestBase.java
-C:\Users\Aditee\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\LoginPage.java
-C:\Users\Aditee\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\SignUpPage.java
-C:\Users\Aditee\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\util\TestUtil.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\analyzer\RetryAnalyzer.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\util\TestUtil.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\ContactsPage.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\SignUpPage.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\DealsPage.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\HomePage.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\TasksPage.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\ExtentReportListener\ExtentReporterNG.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\pages\LoginPage.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\analyzer\RetryTransformer.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\base\TestBase.java
+F:\eclipse-workspace\LatestFramework\src\main\java\com\rave\qa\util\WebEventListener.java

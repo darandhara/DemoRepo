@@ -1,11 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="com.rave.qa.testCases.LoginPageTest" duration-ms="16" started-at="2018-01-06T19:13:22Z" finished-at="2018-01-06T19:13:22Z">
+  <suite name="Command line suite" duration-ms="237966" started-at="2018-02-10T18:32:29Z" finished-at="2018-02-10T18:36:27Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="16" started-at="2018-01-06T19:13:22Z" finished-at="2018-01-06T19:13:22Z">
+    <test name="Command line test" duration-ms="237966" started-at="2018-02-10T18:32:29Z" finished-at="2018-02-10T18:36:27Z">
+      <class name="com.rave.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rave.qa.testCases.LoginPageTest@7f6473]" name="setUp" is-config="true" duration-ms="19959" started-at="2018-02-10T10:35:56Z" finished-at="2018-02-10T10:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.rave.qa.testCases.LoginPageTest@7f6473]" name="loginTest" duration-ms="9604" started-at="2018-02-10T10:36:16Z" finished-at="2018-02-10T10:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rave.qa.testCases.LoginPageTest@7f6473]" name="tearDown" is-config="true" duration-ms="917" started-at="2018-02-10T10:36:26Z" finished-at="2018-02-10T10:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rave.qa.testCases.LoginPageTest -->
+      <class name="com.rave.qa.testCases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="setUp" is-config="true" duration-ms="99203" started-at="2018-02-10T10:32:31Z" finished-at="2018-02-10T10:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCRMContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="createCRMContacts" duration-ms="12792" started-at="2018-02-10T10:34:10Z" data-provider="getCRMTestData" finished-at="2018-02-10T10:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ibm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCRMContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="tearDown" is-config="true" duration-ms="1279" started-at="2018-02-10T10:34:23Z" finished-at="2018-02-10T10:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="setUp" is-config="true" duration-ms="35647" started-at="2018-02-10T10:34:25Z" finished-at="2018-02-10T10:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCRMContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="createCRMContacts" duration-ms="6439" started-at="2018-02-10T10:35:00Z" data-provider="getCRMTestData" finished-at="2018-02-10T10:35:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sita]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rani]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[cts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCRMContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="tearDown" is-config="true" duration-ms="1358" started-at="2018-02-10T10:35:07Z" finished-at="2018-02-10T10:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="setUp" is-config="true" duration-ms="39845" started-at="2018-02-10T10:35:08Z" finished-at="2018-02-10T10:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCRMContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="createCRMContacts" duration-ms="7302" started-at="2018-02-10T10:35:48Z" data-provider="getCRMTestData" finished-at="2018-02-10T10:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jadu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCRMContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rave.qa.testCases.ContactsPageTest@157f54e]" name="tearDown" is-config="true" duration-ms="887" started-at="2018-02-10T10:35:55Z" finished-at="2018-02-10T10:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rave.qa.testCases.ContactsPageTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.rave.qa.testCases.LoginPageTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
